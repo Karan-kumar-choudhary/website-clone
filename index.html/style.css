@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height: 40px;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+
+}
+.fir-nav{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(85, 79, 79);
+}
+.sec-nav{
+          display: flex;
+          align-items: center;
+          font-size: 18px;
+          color: rgb(85, 79, 79);
+          padding-left: 220px;
+}
+.fir-nav:hover{
+    color: rgb(7, 7, 7);
+    cursor: pointer;
+}
+.sec-nav:hover{
+    color: rgb(7, 7, 7);
+    cursor: pointer;
+}
+.main-contant{
+    height: 640px;
+    width: 100%;
+    background-color: black;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.fir-contant{
+    color: #fff;
+    font-size: 45px;
+}
+.sec-contant{
+    color: #e2dfdf;
+    font-size: 23px;
+    padding-top: 30px;
+    
+}
+.contant button{
+    padding: 15px 28px 15px 28px;
+    background-color: rgb(4, 245, 4);
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    transition-duration: 0.4s;
+}
+.contant button:hover{
+    background-color: rgb(85, 214, 85);
+    cursor: pointer;
+}
+.contant{
+    margin-left: 50px;
+}
+.next-contant{
+    height: 450px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.829);
+    
+}
+.change-contant{
+    display: flex;
+    align-items: center;
+    padding: 50px 0 0 50px;
+    color: #fff;
+}
+.fir-image{
+    height: 90px;
+    width: 300px;
+    background-color: #fff;
+    padding-bottom: 15px;
+}
+.image-change{
+    height: 270px;
+    width: 300px;
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.image-boxes{
+   display: flex;
+   justify-content: space-evenly;
+   margin:  0 10px 0 25px ;
+}
+.demand-thoery{
+    height: 200px;
+    width: 100%;
+    background-color: rgba(228, 224, 224, 0.603);
+    display: flex;
+}
+.first-image{
+    padding: 60px 0 0 50px;
+}
+.second-image{
+    height: 460px;
+    width: 370px;
+    background-color: #fff;
+    margin-top: 120px;
+    box-shadow: 1px 1px 6px rgb(144, 146, 146);
+    transition-duration: 0.3s;
+    margin-left: 30px;
+}
+.next-image{
+    display: flex;
+}
+.second-image:hover{
+    box-shadow: 1px 1px 14px rgba(51, 80, 80, 0.801);
+    cursor: pointer;
+}
+.main-image{
+    display: flex;
+}
+.end-part{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(19, 18, 18);
+    margin-top: 80px;
+}
+.information{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    margin: 0 100px 0 40px;
+}
+.same-code{
+    cursor: pointer;
+}
+.logo-information{
+    height: 80px;
+    width: 100%;
+    background-color: transparent ;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-information{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+
+}
+.img-information button{
+    background-color: rgb(26, 201, 26);
+    padding: 15px 17px 15px 17px ;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 30px;
+    transition-duration: 0.2s;
+}
+.img-information button:hover{
+    background-color: rgb(102, 177, 102);
+    cursor: pointer;
+    
+}
+.sec-information{
+    display: flex;
+    align-items: center;
+}
+.sec-information i:hover{
+    color: #fff;
+}
+.end-moment{
+    height: 110px;
+    width: 100%;
+    background-color: transparent;
+}
+.follow-again{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 40px 0 40px;
+}
+.link-inf{
+    color: rgb(83, 82, 82);
+    margin: 20px 0 0 40px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;    
+}
+.similar-change:hover{
+    cursor: pointer;
+    color: black;
+
+}
